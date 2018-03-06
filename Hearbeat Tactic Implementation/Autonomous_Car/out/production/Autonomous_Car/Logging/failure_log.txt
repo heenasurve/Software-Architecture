@@ -7793,3 +7793,691 @@ Localization component failed on : 2018-03-04 20-33-43
 Localization component failed on : 2018-03-04 20-33-46
 
 Localization component failed on : 2018-03-04 20-33-49
+
+Localization component failed on : 2018-03-04 20-33-52
+
+Localization component failed on : 2018-03-04 20-33-55
+
+Localization component failed on : 2018-03-04 20-33-58
+
+Localization component failed on : 2018-03-04 20-33-59
+
+Localization component failed on : 2018-03-04 20-34-01
+
+Localization component failed on : 2018-03-04 20-34-04
+
+Localization component failed on : 2018-03-04 20-34-04
+
+Localization component failed on : 2018-03-04 20-34-07
+
+Localization component failed on : 2018-03-04 20-34-09
+
+Localization component failed on : 2018-03-04 20-34-10
+
+Localization component failed on : 2018-03-04 20-34-13
+
+Localization component failed on : 2018-03-04 20-34-14
+
+Localization component failed on : 2018-03-04 20-34-16
+
+Localization component failed on : 2018-03-04 20-34-19
+
+Localization component failed on : 2018-03-04 20-34-19
+
+Localization component failed on : 2018-03-04 20-34-22
+
+Localization component failed on : 2018-03-04 20-34-24
+
+Localization component failed on : 2018-03-04 20-34-25
+
+Localization component failed on : 2018-03-04 20-34-28
+
+Localization component failed on : 2018-03-04 20-34-29
+
+Localization component failed on : 2018-03-04 20-34-31
+
+Localization component failed on : 2018-03-04 20-34-34
+
+Localization component failed on : 2018-03-04 20-34-34
+
+Localization component failed on : 2018-03-04 20-34-37
+
+Localization component failed on : 2018-03-04 20-34-39
+
+Localization component failed on : 2018-03-04 20-34-40
+
+Localization component failed on : 2018-03-04 20-34-43
+
+Localization component failed on : 2018-03-04 20-34-46
+
+Localization component failed on : 2018-03-04 20-34-49
+
+Localization component failed on : 2018-03-04 20-34-52
+
+Localization component failed on : 2018-03-04 20-34-55
+
+Localization component failed on : 2018-03-04 20-34-58
+
+Localization component failed on : 2018-03-04 20-35-01
+
+Localization component failed on : 2018-03-04 20-35-04
+
+Localization component failed on : 2018-03-04 20-35-07
+
+Localization component failed on : 2018-03-04 20-35-10
+
+Localization component failed on : 2018-03-04 20-35-13
+
+Localization component failed on : 2018-03-04 20-35-16
+
+Localization component failed on : 2018-03-04 20-35-19
+
+Localization component failed on : 2018-03-04 20-35-22
+
+Localization component failed on : 2018-03-04 20-35-25
+
+Localization component failed on : 2018-03-04 20-35-28
+
+Localization component failed on : 2018-03-04 20-35-32
+
+Localization component failed on : 2018-03-04 20-35-35
+
+Localization component failed on : 2018-03-04 20-35-38
+
+Localization component failed on : 2018-03-04 20-35-41
+
+Localization component failed on : 2018-03-04 20-35-44
+
+Localization component failed on : 2018-03-04 20-35-47
+
+Localization component failed on : 2018-03-04 20-35-50
+
+Localization component failed on : 2018-03-04 20-35-53
+
+Localization component failed on : 2018-03-04 20-35-56
+
+Localization component failed on : 2018-03-04 20-35-59
+
+Localization component failed on : 2018-03-04 20-36-02
+
+Localization component failed on : 2018-03-04 20-36-05
+
+Localization component failed on : 2018-03-04 20-36-08
+
+Localization component failed on : 2018-03-04 20-36-11
+
+Localization component failed on : 2018-03-04 20-36-14
+
+Localization component failed on : 2018-03-04 20-36-17
+
+Localization component failed on : 2018-03-04 20-36-20
+
+Localization component failed on : 2018-03-04 20-36-23
+
+Localization component failed on : 2018-03-04 20-36-26
+
+Localization component failed on : 2018-03-04 20-36-29
+
+Localization component failed on : 2018-03-04 20-36-32
+
+Localization component failed on : 2018-03-04 20-36-35
+
+Localization component failed on : 2018-03-04 20-36-38
+
+Localization component failed on : 2018-03-04 20-36-41
+
+Localization component failed on : 2018-03-04 20-36-44
+
+Localization component failed on : 2018-03-04 20-36-47
+
+Localization component failed on : 2018-03-04 20-36-50
+
+Localization component failed on : 2018-03-04 20-36-53
+
+Localization component failed on : 2018-03-04 20-36-56
+
+Localization component failed on : 2018-03-04 20-36-59
+
+Localization component failed on : 2018-03-04 20-37-02
+
+Localization component failed on : 2018-03-04 20-37-05
+
+Localization component failed on : 2018-03-04 20-37-08
+
+Localization component failed on : 2018-03-04 20-37-11
+
+Localization component failed on : 2018-03-04 20-37-14
+
+Localization component failed on : 2018-03-04 20-37-17
+
+Localization component failed on : 2018-03-04 20-37-20
+
+Localization component failed on : 2018-03-04 20-37-23
+
+Localization component failed on : 2018-03-04 20-37-26
+
+Localization component failed on : 2018-03-04 20-37-29
+
+Localization component failed on : 2018-03-04 20-37-32
+
+Localization component failed on : 2018-03-04 20-37-35
+
+Localization component failed on : 2018-03-04 20-37-38
+
+Localization component failed on : 2018-03-04 20-37-41
+
+Localization component failed on : 2018-03-04 20-37-44
+
+Localization component failed on : 2018-03-04 20-37-47
+
+Localization component failed on : 2018-03-04 20-37-50
+
+Localization component failed on : 2018-03-04 20-37-53
+
+Localization component failed on : 2018-03-04 20-37-56
+
+Localization component failed on : 2018-03-04 20-37-59
+
+Localization component failed on : 2018-03-04 20-38-02
+
+Localization component failed on : 2018-03-04 20-38-05
+
+Localization component failed on : 2018-03-04 20-38-08
+
+Localization component failed on : 2018-03-04 20-38-11
+
+Localization component failed on : 2018-03-04 20-38-14
+
+Localization component failed on : 2018-03-04 20-38-17
+
+Localization component failed on : 2018-03-04 20-38-20
+
+Localization component failed on : 2018-03-04 20-38-23
+
+Localization component failed on : 2018-03-04 20-38-26
+
+Localization component failed on : 2018-03-04 20-38-29
+
+Localization component failed on : 2018-03-04 20-38-32
+
+Localization component failed on : 2018-03-04 20-38-35
+
+Localization component failed on : 2018-03-04 20-38-38
+
+Localization component failed on : 2018-03-04 20-38-41
+
+Localization component failed on : 2018-03-04 20-38-44
+
+Localization component failed on : 2018-03-04 20-38-47
+
+Localization component failed on : 2018-03-04 20-38-50
+
+Localization component failed on : 2018-03-04 20-38-53
+
+Localization component failed on : 2018-03-04 20-38-56
+
+Localization component failed on : 2018-03-04 20-38-59
+
+Localization component failed on : 2018-03-04 20-39-02
+
+Localization component failed on : 2018-03-04 20-39-05
+
+Localization component failed on : 2018-03-04 20-39-08
+
+Localization component failed on : 2018-03-04 20-39-11
+
+Localization component failed on : 2018-03-04 20-39-14
+
+Localization component failed on : 2018-03-04 20-39-17
+
+Localization component failed on : 2018-03-04 20-39-20
+
+Localization component failed on : 2018-03-04 20-39-23
+
+Localization component failed on : 2018-03-04 20-39-27
+
+Localization component failed on : 2018-03-04 20-39-30
+
+Localization component failed on : 2018-03-04 20-39-33
+
+Localization component failed on : 2018-03-04 20-39-36
+
+Localization component failed on : 2018-03-04 20-39-39
+
+Localization component failed on : 2018-03-04 20-39-42
+
+Localization component failed on : 2018-03-04 20-39-45
+
+Localization component failed on : 2018-03-04 20-39-48
+
+Localization component failed on : 2018-03-04 20-39-51
+
+Localization component failed on : 2018-03-04 20-39-54
+
+Localization component failed on : 2018-03-04 20-39-57
+
+Localization component failed on : 2018-03-04 20-40-00
+
+Localization component failed on : 2018-03-04 20-40-03
+
+Localization component failed on : 2018-03-04 20-40-06
+
+Localization component failed on : 2018-03-04 20-40-09
+
+Localization component failed on : 2018-03-04 20-40-12
+
+Localization component failed on : 2018-03-04 20-40-15
+
+Localization component failed on : 2018-03-04 20-40-18
+
+Localization component failed on : 2018-03-04 20-40-21
+
+Localization component failed on : 2018-03-04 20-40-24
+
+Localization component failed on : 2018-03-04 20-40-27
+
+Localization component failed on : 2018-03-04 20-40-30
+
+Localization component failed on : 2018-03-04 20-40-33
+
+Localization component failed on : 2018-03-04 20-40-36
+
+Localization component failed on : 2018-03-04 20-40-39
+
+Localization component failed on : 2018-03-04 20-40-42
+
+Localization component failed on : 2018-03-04 20-40-45
+
+Localization component failed on : 2018-03-04 20-40-48
+
+Localization component failed on : 2018-03-04 20-40-51
+
+Localization component failed on : 2018-03-04 20-40-54
+
+Localization component failed on : 2018-03-04 20-40-57
+
+Localization component failed on : 2018-03-04 20-41-00
+
+Localization component failed on : 2018-03-04 20-41-03
+
+Localization component failed on : 2018-03-04 20-41-06
+
+Localization component failed on : 2018-03-04 20-41-09
+
+Localization component failed on : 2018-03-04 20-41-12
+
+Localization component failed on : 2018-03-04 20-41-15
+
+Localization component failed on : 2018-03-04 20-41-18
+
+Localization component failed on : 2018-03-04 20-41-21
+
+Localization component failed on : 2018-03-04 20-41-24
+
+Localization component failed on : 2018-03-04 20-41-27
+
+Localization component failed on : 2018-03-04 20-41-30
+
+Localization component failed on : 2018-03-04 20-41-33
+
+Localization component failed on : 2018-03-04 20-41-36
+
+Localization component failed on : 2018-03-04 20-41-39
+
+Localization component failed on : 2018-03-04 20-41-42
+
+Localization component failed on : 2018-03-04 20-41-45
+
+Localization component failed on : 2018-03-04 20-41-48
+
+Localization component failed on : 2018-03-04 20-41-51
+
+Localization component failed on : 2018-03-04 20-41-54
+
+Localization component failed on : 2018-03-04 20-41-57
+
+Localization component failed on : 2018-03-04 20-42-00
+
+Localization component failed on : 2018-03-04 20-42-03
+
+Localization component failed on : 2018-03-04 20-42-06
+
+Localization component failed on : 2018-03-04 20-42-09
+
+Localization component failed on : 2018-03-04 20-42-12
+
+Localization component failed on : 2018-03-04 20-42-15
+
+Localization component failed on : 2018-03-04 20-42-18
+
+Localization component failed on : 2018-03-04 20-42-21
+
+Localization component failed on : 2018-03-04 20-42-24
+
+Localization component failed on : 2018-03-04 20-42-27
+
+Localization component failed on : 2018-03-04 20-42-30
+
+Localization component failed on : 2018-03-04 20-42-33
+
+Localization component failed on : 2018-03-06 15-48-28
+
+Localization component failed on : 2018-03-06 15-48-33
+
+Localization component failed on : 2018-03-06 15-48-38
+
+Localization component failed on : 2018-03-06 16-01-18
+
+Localization component failed on : 2018-03-06 16-01-23
+
+Vehicle Control component failed on : 2018-03-06 16-02-11
+
+Localization component failed on : 2018-03-06 16-02-16
+
+Localization component failed on : 2018-03-06 16-03-27
+
+Localization component failed on : 2018-03-06 16-03-32
+
+Localization component failed on : 2018-03-06 16-10-02
+
+Localization component failed on : 2018-03-06 16-10-07
+
+Localization component failed on : 2018-03-06 16-56-09
+
+Localization component failed on : 2018-03-06 16-56-14
+
+Localization component failed on : 2018-03-06 16-56-19
+
+Localization component failed on : 2018-03-06 16-56-24
+
+Localization component failed on : 2018-03-06 16-56-29
+
+Localization component failed on : 2018-03-06 16-56-34
+
+Vehicle Control component failed on : 2018-03-06 16-57-31
+
+Localization component failed on : 2018-03-06 16-57-36
+
+Vehicle Control component failed on : 2018-03-06 16-58-06
+
+Localization component failed on : 2018-03-06 16-58-12
+
+Vehicle Control component failed on : 2018-03-06 16-59-07
+
+Localization component failed on : 2018-03-06 16-59-12
+
+Vehicle Control component failed on : 2018-03-06 17-07-14
+
+Localization component failed on : 2018-03-06 17-07-19
+
+Localization component failed on : 2018-03-06 17-07-24
+
+Localization component failed on : 2018-03-06 17-07-29
+
+Localization component failed on : 2018-03-06 17-07-34
+
+Localization component failed on : 2018-03-06 17-07-39
+
+Localization component failed on : 2018-03-06 17-07-44
+
+Localization component failed on : 2018-03-06 17-07-49
+
+Localization component failed on : 2018-03-06 17-07-54
+
+Localization component failed on : 2018-03-06 17-07-59
+
+Localization component failed on : 2018-03-06 17-08-04
+
+Localization component failed on : 2018-03-06 17-08-09
+
+Localization component failed on : 2018-03-06 17-08-15
+
+Localization component failed on : 2018-03-06 17-08-20
+
+Localization component failed on : 2018-03-06 17-08-25
+
+Localization component failed on : 2018-03-06 17-08-30
+
+Localization component failed on : 2018-03-06 17-08-35
+
+Localization component failed on : 2018-03-06 17-08-40
+
+Localization component failed on : 2018-03-06 17-08-45
+
+Localization component failed on : 2018-03-06 17-08-50
+
+Localization component failed on : 2018-03-06 17-08-55
+
+Localization component failed on : 2018-03-06 17-09-00
+
+Localization component failed on : 2018-03-06 17-09-05
+
+Localization component failed on : 2018-03-06 17-09-10
+
+Localization component failed on : 2018-03-06 17-09-15
+
+Localization component failed on : 2018-03-06 17-09-20
+
+Localization component failed on : 2018-03-06 17-09-25
+
+Localization component failed on : 2018-03-06 17-09-30
+
+Localization component failed on : 2018-03-06 17-09-35
+
+Localization component failed on : 2018-03-06 17-09-40
+
+Localization component failed on : 2018-03-06 17-09-45
+
+Localization component failed on : 2018-03-06 17-09-50
+
+Localization component failed on : 2018-03-06 17-09-55
+
+Localization component failed on : 2018-03-06 17-10-00
+
+Localization component failed on : 2018-03-06 17-10-05
+
+Localization component failed on : 2018-03-06 17-10-10
+
+Localization component failed on : 2018-03-06 17-10-15
+
+Localization component failed on : 2018-03-06 17-10-20
+
+Localization component failed on : 2018-03-06 17-10-25
+
+Localization component failed on : 2018-03-06 17-10-30
+
+Localization component failed on : 2018-03-06 17-10-35
+
+Localization component failed on : 2018-03-06 17-10-40
+
+Localization component failed on : 2018-03-06 17-10-45
+
+Localization component failed on : 2018-03-06 17-10-50
+
+Localization component failed on : 2018-03-06 17-10-55
+
+Localization component failed on : 2018-03-06 17-11-00
+
+Localization component failed on : 2018-03-06 17-11-05
+
+Localization component failed on : 2018-03-06 17-11-10
+
+Localization component failed on : 2018-03-06 17-11-15
+
+Localization component failed on : 2018-03-06 17-11-20
+
+Localization component failed on : 2018-03-06 17-11-25
+
+Vehicle Control component failed on : 2018-03-06 17-11-41
+
+Localization component failed on : 2018-03-06 17-11-46
+
+Localization component failed on : 2018-03-06 17-11-51
+
+Localization component failed on : 2018-03-06 17-11-56
+
+Localization component failed on : 2018-03-06 17-12-01
+
+Localization component failed on : 2018-03-06 17-12-06
+
+Localization component failed on : 2018-03-06 17-12-11
+
+Localization component failed on : 2018-03-06 17-12-16
+
+Localization component failed on : 2018-03-06 17-12-21
+
+Localization component failed on : 2018-03-06 17-12-26
+
+Localization component failed on : 2018-03-06 17-12-31
+
+Localization component failed on : 2018-03-06 17-12-36
+
+Localization component failed on : 2018-03-06 17-12-41
+
+Localization component failed on : 2018-03-06 17-12-46
+
+Localization component failed on : 2018-03-06 17-12-51
+
+Localization component failed on : 2018-03-06 17-12-56
+
+Localization component failed on : 2018-03-06 17-13-01
+
+Localization component failed on : 2018-03-06 17-13-06
+
+Localization component failed on : 2018-03-06 17-13-11
+
+Localization component failed on : 2018-03-06 17-13-16
+
+Localization component failed on : 2018-03-06 17-13-21
+
+Localization component failed on : 2018-03-06 17-13-27
+
+Localization component failed on : 2018-03-06 17-13-32
+
+Vehicle Control component failed on : 2018-03-06 17-13-35
+
+Localization component failed on : 2018-03-06 17-13-37
+
+Localization component failed on : 2018-03-06 17-13-40
+
+Localization component failed on : 2018-03-06 17-13-42
+
+Localization component failed on : 2018-03-06 17-13-47
+
+Localization component failed on : 2018-03-06 17-13-52
+
+Localization component failed on : 2018-03-06 17-13-57
+
+Localization component failed on : 2018-03-06 17-14-02
+
+Localization component failed on : 2018-03-06 17-14-07
+
+Localization component failed on : 2018-03-06 17-14-12
+
+Localization component failed on : 2018-03-06 17-14-17
+
+Localization component failed on : 2018-03-06 17-14-22
+
+Localization component failed on : 2018-03-06 17-14-27
+
+Localization component failed on : 2018-03-06 17-14-32
+
+Localization component failed on : 2018-03-06 17-14-37
+
+Localization component failed on : 2018-03-06 17-14-42
+
+Localization component failed on : 2018-03-06 17-14-47
+
+Localization component failed on : 2018-03-06 17-14-52
+
+Localization component failed on : 2018-03-06 17-14-57
+
+Localization component failed on : 2018-03-06 17-15-02
+
+Localization component failed on : 2018-03-06 17-15-07
+
+Localization component failed on : 2018-03-06 17-15-12
+
+Localization component failed on : 2018-03-06 17-15-17
+
+Localization component failed on : 2018-03-06 17-15-22
+
+Localization component failed on : 2018-03-06 17-15-27
+
+Localization component failed on : 2018-03-06 17-15-32
+
+Localization component failed on : 2018-03-06 17-15-37
+
+Localization component failed on : 2018-03-06 17-15-42
+
+Localization component failed on : 2018-03-06 17-15-47
+
+Localization component failed on : 2018-03-06 17-15-52
+
+Vehicle Control component failed on : 2018-03-06 17-15-57
+
+Localization component failed on : 2018-03-06 17-15-57
+
+Localization component failed on : 2018-03-06 17-16-02
+
+Localization component failed on : 2018-03-06 17-16-07
+
+Localization component failed on : 2018-03-06 17-16-12
+
+Localization component failed on : 2018-03-06 17-16-17
+
+Localization component failed on : 2018-03-06 17-16-22
+
+Localization component failed on : 2018-03-06 17-16-27
+
+Localization component failed on : 2018-03-06 17-16-32
+
+Localization component failed on : 2018-03-06 17-16-37
+
+Localization component failed on : 2018-03-06 17-16-42
+
+Localization component failed on : 2018-03-06 17-16-47
+
+Localization component failed on : 2018-03-06 17-16-52
+
+Localization component failed on : 2018-03-06 17-16-57
+
+Localization component failed on : 2018-03-06 17-17-02
+
+Localization component failed on : 2018-03-06 17-17-07
+
+Localization component failed on : 2018-03-06 17-17-12
+
+Localization component failed on : 2018-03-06 17-17-17
+
+Localization component failed on : 2018-03-06 17-17-22
+
+Localization component failed on : 2018-03-06 17-17-27
+
+Localization component failed on : 2018-03-06 17-17-32
+
+Vehicle Control component failed on : 2018-03-06 17-17-34
+
+Localization component failed on : 2018-03-06 17-17-37
+
+Localization component failed on : 2018-03-06 17-17-39
+
+Localization component failed on : 2018-03-06 17-17-42
+
+Localization component failed on : 2018-03-06 17-17-47
+
+Localization component failed on : 2018-03-06 17-17-52
+
+Localization component failed on : 2018-03-06 17-17-57
+
+Localization component failed on : 2018-03-06 17-18-02
+
+Localization component failed on : 2018-03-06 17-18-07
+
+Vehicle Control component failed on : 2018-03-06 17-18-23
+
+Localization component failed on : 2018-03-06 17-18-28
+
+Localization component failed on : 2018-03-06 17-18-33
+
+Localization component failed on : 2018-03-06 17-21-21

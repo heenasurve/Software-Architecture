@@ -6,6 +6,7 @@ import VehicleControl.Receiver;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 
 
 /**
@@ -23,15 +24,10 @@ public class Starter {
             //pb.redirectOutput(ProcessBuilder.Redirect.INHERIT);
             pb.start();
 
-            System.out.println("Starting sender");
-            ProcessBuilder sender_builder = new ProcessBuilder("java.exe", "-cp",
-                    "C:\\Users\\Heena\\Desktop\\Autonomous_Car\\out\\production\\Autonomous_Car" ,
-                    "Localization.Sender");
-            sender_builder.redirectOutput(ProcessBuilder.Redirect.INHERIT);
-
-            Process localizationModule = sender_builder.start();
 
 
+
+            Thread.sleep(1000);
             System.out.println("Starting receiver");
             ProcessBuilder receiver_builder = new ProcessBuilder("java.exe" , "-cp",
                     "C:\\Users\\Heena\\Desktop\\Autonomous_Car\\out\\production\\Autonomous_Car" ,
@@ -39,6 +35,14 @@ public class Starter {
             receiver_builder.redirectOutput(ProcessBuilder.Redirect.INHERIT);
 
             Process vehicleControlModule = receiver_builder.start();
+            Thread.sleep(1000);
+            System.out.println("Starting sender");
+            ProcessBuilder sender_builder = new ProcessBuilder("java.exe", "-cp",
+                    "C:\\Users\\Heena\\Desktop\\Autonomous_Car\\out\\production\\Autonomous_Car" ,
+                    "Localization.Sender");
+            sender_builder.redirectOutput(ProcessBuilder.Redirect.INHERIT);
+
+            Process localizationModule = sender_builder.start();
 
 
 
@@ -54,6 +58,7 @@ public class Starter {
             }
 
 
+
             InputStream errors_sender = localizationModule.getErrorStream();
             String err_s = "Sender - ";
             if(localizationModule.getErrorStream().read() == -1) {
@@ -62,7 +67,8 @@ public class Starter {
                 }
                 System.out.println(err_s);
             }else{
-                System.out.println(localizationModule.getOutputStream());
+                OutputStream out = localizationModule.getOutputStream();
+                System.out.println(out);
             }
 
         }catch(Exception e){

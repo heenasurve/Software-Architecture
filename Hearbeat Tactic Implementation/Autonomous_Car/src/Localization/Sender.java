@@ -37,9 +37,6 @@ public class Sender {
 
     public void sendHeartBeat() throws IOException{
 
-        Thread sender_thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
                 while(true){
                     try {
                         /*something that this highly available module does here, may crash*/
@@ -62,15 +59,6 @@ public class Sender {
                     }
 
                 }
-            }
-        });
-        /*start process */
-        System.out.println("Started sender thread");
-        sender_thread.start();
-
-
-        System.out.println("\n Localization module sent the first heartbeat signal at : "+
-                LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
     }
 
 
@@ -81,10 +69,15 @@ public class Sender {
         return new Location(mylocation,time_in_seconds);
     }
 
-    public static void main(String [] args) throws NotBoundException,IOException {
+    public static void main(String [] args){
         Sender sender = new Sender();
-        sender.initialize();
-        sender.sendHeartBeat();
+        try{
+            sender.initialize();
+            Thread.sleep(2000);
+            sender.sendHeartBeat();
+        }catch(NotBoundException | IOException | InterruptedException ex){
+            ex.printStackTrace();
+        }
         System.out.println("sender initialized");
     }
 }
