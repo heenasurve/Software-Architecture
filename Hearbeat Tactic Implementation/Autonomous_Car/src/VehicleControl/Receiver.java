@@ -20,6 +20,7 @@ public class Receiver extends UnicastRemoteObject implements ReceiverInterface{
     private static final int MONITORING_INTERVAL = 4000;
     private static final String REGISTRY_HOST = "localhost";
     private static long lastHeartbeatTime;
+    private static int currentlocation;
 
     protected Receiver() throws RemoteException {
     }
@@ -40,8 +41,7 @@ public class Receiver extends UnicastRemoteObject implements ReceiverInterface{
            registry.rebind("ReceiverInterface", receiver);
 
         }catch(Exception e){
-            System.out.println(" Receiver Exception : " + e.getMessage());
-            FaultMonitor.handleFault("Vehicle Control");
+            System.out.println(" Receiver: Exception : " + e.getMessage());
             e.printStackTrace();
         }
     }
@@ -57,8 +57,8 @@ public class Receiver extends UnicastRemoteObject implements ReceiverInterface{
                         System.out.println(e.getMessage());
                     }
                     if (!isAlive()) {
-                        System.out.println("Hearbeat interval exceeded - Localization Component failed - View log for details");
-                        FaultMonitor.handleFault("Localization");
+                        System.out.println("Receiver: Hearbeat interval exceeded - Localization Component failed - View log for details");
+                        FaultMonitor.handleFault("Localization", this);
                     }
                 }
     }
@@ -69,11 +69,17 @@ public class Receiver extends UnicastRemoteObject implements ReceiverInterface{
         return interval <= (MONITORING_INTERVAL + error);
     }
 
+    public int getCurrentlocation(){
+        return this.currentlocation;
+    }
+
     /*---------------THE REMOTE METHOD--------------
      Receives heart beat messages from the monitored component*/
-    public void readStatus() throws RemoteException{
+    public void readStatus(int location) throws RemoteException{
+        this.currentlocation = location;
         lastHeartbeatTime = System.currentTimeMillis();
-        System.out.println("Received heartbeat signal at : " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+        System.out.println("Receiver: received current location: " + location);
+        System.out.println("Receiver: Received heartbeat signal at : " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
     }
 
     public static void main(String [] args) throws RemoteException {

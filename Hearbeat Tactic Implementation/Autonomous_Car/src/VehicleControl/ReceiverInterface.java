@@ -12,7 +12,7 @@ public interface ReceiverInterface extends Remote{
     void initializeReceiver() throws RemoteException;
 
     /* Remote method invoked by any highly available module to send a hearbeat signal/status*/
-    void readStatus() throws RemoteException;
+    void readStatus(int location) throws RemoteException;
 
     /*Monitors the health of the localization module every seconds */
     void monitorLocalizationModule() throws RemoteException;

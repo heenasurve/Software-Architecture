@@ -18,12 +18,11 @@ import java.util.Calendar;
  * Created by Heena on 2/15/2018.
  */
 /*A Localization Module - Availability Critical*/
-public class Sender {
+public class BackupSender {
 
     private final int HEARTBEAT_INTERVAL = 2000;
     private Registry registry;
     private ReceiverInterface receiver_stub;
-    private static int i = 0;
 
     public void initialize() throws IOException, NotBoundException {
 
@@ -40,7 +39,6 @@ public class Sender {
         while(true){
             try {
                 /*something that this highly available module does here, may crash*/
-
                 int current_time = Calendar.getInstance().getTime().getSeconds();
                 current_location = getLocation(current_location.getCo_ords());
 
@@ -50,14 +48,13 @@ public class Sender {
 
                 /*report status, by sending a heartbeat signal to monitoring module*/
                 receiver_stub.readStatus(current_location.getCo_ords());
-                System.out.println("Sender: I am alive.");
+                System.out.println("BackupSender: I am alive.");
                 /*wait for 2 seconds before sending the next heart beat signal*/
                 Thread.sleep(HEARTBEAT_INTERVAL);
 
                 /*Deliberately not catching the Arithmetic Exception - / by 0*/
             }catch(InterruptedException | RemoteException ex){
-                System.out.println("Sender: " + ex.getMessage());
-
+                System.out.println("BackupSender: " + ex.getMessage());
             }
 
         }
@@ -66,32 +63,28 @@ public class Sender {
 
     private static Location getLocation(int location){
         DecimalFormat df = new DecimalFormat("##.00");
-        location +=1;
+        location+=1;
         int time_in_seconds = Calendar.getInstance().getTime().getSeconds();
         return new Location(location,time_in_seconds);
     }
 
     public static void main(String [] args){
         int initiallocation;
+
         if(args.length == 0 ){
             initiallocation = 0;
-
         }
         else{
-
             initiallocation = Integer.valueOf(args[0]);
         }
-        Sender sender = new Sender();
+        BackupSender sender = new BackupSender();
         try{
             sender.initialize();
-
             Thread.sleep(2000);
             sender.sendHeartBeat(initiallocation);
-
         }catch(NotBoundException | IOException | InterruptedException ex){
-
             ex.printStackTrace();
         }
-        System.out.println("sender initialized");
+        System.out.println("BackupSender initialized");
     }
 }

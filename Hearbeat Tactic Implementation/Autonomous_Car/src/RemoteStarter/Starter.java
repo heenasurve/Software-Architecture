@@ -17,34 +17,31 @@ import java.io.OutputStream;
 public class Starter {
 
     public static void main(String [] args){
+        File currentDirFile = new File(".");
+        String helper = currentDirFile.getAbsolutePath();
         try {
 
-            ProcessBuilder pb = new ProcessBuilder("rmiregistry.exe");
-            pb.directory(new File("./out/production/Autonomous_Car"));
+            ProcessBuilder pb = new ProcessBuilder("rmiregistry");
+            pb.directory(new File("." + File.separator +"out" + File.separator +"production"+ File.separator +"Autonomous_Car"));
             //pb.redirectOutput(ProcessBuilder.Redirect.INHERIT);
             pb.start();
 
-
-
-
             Thread.sleep(1000);
             System.out.println("Starting receiver");
-            ProcessBuilder receiver_builder = new ProcessBuilder("java.exe" , "-cp",
-                    "C:\\Users\\Heena\\Desktop\\Autonomous_Car\\out\\production\\Autonomous_Car" ,
+            ProcessBuilder receiver_builder = new ProcessBuilder("java" , "-cp",
+                    helper + File.separator + "out"+ File.separator +"production" + File.separator +"Autonomous_Car" + File.separator ,
                     "VehicleControl.Receiver");
             receiver_builder.redirectOutput(ProcessBuilder.Redirect.INHERIT);
 
             Process vehicleControlModule = receiver_builder.start();
             Thread.sleep(1000);
             System.out.println("Starting sender");
-            ProcessBuilder sender_builder = new ProcessBuilder("java.exe", "-cp",
-                    "C:\\Users\\Heena\\Desktop\\Autonomous_Car\\out\\production\\Autonomous_Car" ,
+            ProcessBuilder sender_builder = new ProcessBuilder("java", "-cp",
+                    helper + File.separator + "out"+ File.separator +"production" + File.separator +"Autonomous_Car" + File.separator ,
                     "Localization.Sender");
             sender_builder.redirectOutput(ProcessBuilder.Redirect.INHERIT);
 
             Process localizationModule = sender_builder.start();
-
-
 
             InputStream errors_receiver = vehicleControlModule.getErrorStream();
             String err_r = "Receiver - ";
@@ -56,8 +53,6 @@ public class Starter {
             }else{
                 System.out.println(vehicleControlModule.getOutputStream());
             }
-
-
 
             InputStream errors_sender = localizationModule.getErrorStream();
             String err_s = "Sender - ";
