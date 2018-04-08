@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TestCam.iml" filepath="$PROJECT_DIR$/TestCam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/groovything/vision.iml" filepath="$PROJECT_DIR$/groovything/vision.iml" />
+    </modules>
+  </component>
+</project>
