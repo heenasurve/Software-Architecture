@@ -14,11 +14,11 @@ public class ClarifaiLookup {
 
     public static void lookupImage(byte[] img){
 
-        try {
+       /* try {
             Thread.sleep(5000);
         }catch(InterruptedException ex){
             ex.printStackTrace();
-        }
+        }*/
         ClarifaiClient client = new ClarifaiBuilder("d979d5c4cf62431a97a26b9c9dc8c920")
                 .client(new OkHttpClient()) // OPTIONAL. Allows customization of OkHttp by the user
                 .buildSync();

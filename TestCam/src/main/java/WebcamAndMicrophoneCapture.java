@@ -15,7 +15,7 @@ import javax.imageio.ImageIO;
 public class WebcamAndMicrophoneCapture {
 
     public static final String FILENAME = "output.mp4";
-    static final int MAX_THREADS = 4;
+    static final int MAX_THREADS = 15;
 
     public static void main(String[] args) throws Exception, FrameGrabber.Exception {
         ExecutorService pool = Executors.newFixedThreadPool(MAX_THREADS);
@@ -44,14 +44,14 @@ public class WebcamAndMicrophoneCapture {
             while (canvasFrame.isVisible() && (grabbedImage = grabber.grab()) != null) {
                 i++;
                 canvasFrame.showImage(grabbedImage);
-                if(i % 1 ==0) {
+                if(i % 10 ==0) {
                     //we are passing the image to the lookup api
                     //note that if we don't externalize the thread for this operation
                     // the stream screen will freeze while it does the lookup
                     Runnable r1 = new CamGrab(grabbedImage);
                     /*Thread thread = new Thread(r1);
                     thread.start();*/
-                    pool.submit(r1);
+                    pool.execute(r1);
                 }
                 recorder.record(grabbedImage);
             }
@@ -85,10 +85,11 @@ class CamGrab implements Runnable{
             BufferedImage bufferedImage = getImage(frame, false);
             ByteArrayOutputStream baos=new ByteArrayOutputStream();
             ImageIO.write(bufferedImage,"jpg",baos);
+            ImageIO.setUseCache(false);
             byte[] imageInByte=baos.toByteArray();
             ClarifaiLookup.lookupImage(imageInByte);
-        }catch (IOException e){
-            System.out.println(e.getMessage());
+        }catch (IOException | BufferUnderflowException e){
+            //System.out.println(e.getMessage());
         }
     }
 
